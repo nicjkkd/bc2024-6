@@ -1,0 +1,25 @@
+{
+  "name": "bc2024-5",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon main.js -- -h 127.0.0.1 -p 3000 -c ./cache",
+    "start1": "nodemon main.js",
+    "start2": "nodemon main.js -- -h 127.0.0.1",
+    "start3": "nodemon main.js -- -h 127.0.0.1 -p 3000"
+  },
+  "keywords": [],
+  "author": "nicjkkd",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "commander": "^12.1.0",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
